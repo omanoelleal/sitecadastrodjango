@@ -8,5 +8,6 @@ from app_cad_users import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('usuarios/', views.usuarios, name='listagem_usuarios')
+    path('usuarios/', views.usuarios, name='listagem_usuarios'),
+    path('listausuarios/', views.ver_user, name='ver_user')
 ]
