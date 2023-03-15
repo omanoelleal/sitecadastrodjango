@@ -32,3 +32,13 @@ Para iniciar o seu projeto execute no terminal o comando:
 ````console
 python .\manage.py runserver
 ````
+
+## Comandos Importantes
+### Criar Migrations
+````console
+python .\manage.py makemigrations
+````
+### Executar Migrations
+````python
+python .\manage.py migrate
+````
