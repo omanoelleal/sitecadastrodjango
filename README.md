@@ -39,6 +39,6 @@ python .\manage.py runserver
 python .\manage.py makemigrations
 ````
 ### Executar Migrations
-````python
+````console
 python .\manage.py migrate
 ````
