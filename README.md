@@ -27,18 +27,22 @@ Para verificar se a pasta que você está tem o arquivo manage.py
 python -m django startapp app_do_seu_projeto
 ````
 
+---
+
 ## Iniciando o seu projeto:
 Para iniciar o seu projeto execute no terminal o comando:
 ````console
 python .\manage.py runserver
 ````
 
+---
+
 ## Comandos Importantes
-### Criar Migrations
+1. Criar Migrations
 ````console
 python .\manage.py makemigrations
 ````
-### Executar Migrations
+2. Executar Migrations
 ````console
 python .\manage.py migrate
 ````
